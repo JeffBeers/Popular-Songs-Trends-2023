@@ -23,7 +23,9 @@ spotify-2024.csv
 Before you begin, you will need to meet the following requirements:
 
 - Install Python. This project was developed using Python 3.12.2. If you don't have Python installed or if you need to upgrade your current version, you can download it from the [official Python website](https://www.python.org/downloads/).
-- You have installed Git, which is necessary to clone the repository. If you don't have Git installed, you can download it from the [official Git website](https://git-scm.com/downloads).
+- Install Git, which is necessary to clone the repository. If you don't have Git installed, you can download it from the [official Git website](https://git-scm.com/downloads).
+- Install ipykernel. 
+
 
 1. **Clone Repository**
     ```sh
@@ -53,6 +55,8 @@ Before you begin, you will need to meet the following requirements:
 
    This will create a new virtual environment named `venv` in your current directory.
 
+   ***NOTE: If the venv does not work or appear after installation, try restarting the IDE.***
+
 4. **Activate the virtual environment**
 
    On Windows:
@@ -77,6 +81,7 @@ Before you begin, you will need to meet the following requirements:
 6. **Run the ```Popular-Songs-Trends-2023.ipynb``` file:**
     - Using Visual Studio Code, open the `.ipynb` file and run the cells using the run button that appears at the top left of each cell.
 
+
 7. **Deactivate Environment When Finished**
     
     Type `deactivate` in your terminal when you are finished running the project.
@@ -84,10 +89,12 @@ Before you begin, you will need to meet the following requirements:
 
 ## Visualizations
 
-Visualizations of the findings for this project can be viewed on my [Tableau Public workbook]
-(https://public.tableau.com/app/profile/jeffery.beers/viz/Popular-Songs-Trends-2023-tableau/Story1?publish=yes)
+Visualizations of the findings for this project can be viewed on my Tableau Public workbook.
+[Popular Songs Trends Dashboard](https://public.tableau.com/app/profile/jeffery.beers/viz/Popular-Songs-Trends-2023-tableau/Story1?publish=yes)
 
 ## Project Features
+
+This project was completed as part of a capstone project for the Code:You Data Analytics program, and meets the following requirements:'
 
 **Category 1: Loading Data:**
 - Read TWO data files (CSV).
